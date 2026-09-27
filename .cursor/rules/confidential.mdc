@@ -1,0 +1,11 @@
+---
+description: Keep client files out of the prompt and out of the answer.
+alwaysApply: true
+---
+
+# Confidential
+
+- Do not read `clients/`, `local/`, `.env`, or a workbook a person has not pointed at for this task.
+- Do not invent a client name, a figure, or a factor year.
+- If the source does not support a sentence, write `GAP` and say what is missing.
+- One task loads one skill.

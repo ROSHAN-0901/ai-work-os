@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeReadFile": [
+      {
+        "command": "python3 .cursor/hooks/before_read_guard.py",
+        "timeout": 5
+      }
+    ]
+  }
+}
